@@ -1,0 +1,30 @@
+question = input("do you like waffles yes or no")
+
+if question == "yes"  :
+    print ("great")
+
+elif question =="no" :
+    print("but waffles")
+
+else :
+    print ("please follow the instructions")
+
+question =int(input("what is 3 x 10: "))
+
+if question ==30 :
+    print("exactly")
+
+elif question >30 :
+    print ("wrong")
+
+elif question <30 :
+    print ("wrong")
+
+print ("hello")
+question = input ("can i have some money")
+
+while  question !="yes" :
+    question = input ("why not")
+
+else :
+    print ("thanks")
